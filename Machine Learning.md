@@ -16,7 +16,7 @@
 
   - 规范化 (normalization)：每个维度的特征减去该特征最小值，除以该特征的最大值与最小值之差。
 
-    <img src="https://ss.csdn.net/p?https://mmbiz.qpic.cn/mmbiz_png/e4kxNicDVcCG8Qqr40b4vh0Uc9XdXCdktVicicQ2uzAgYu2ia6Cial7lUb9MWThOTGb6m2kNIGGeiaicEZunYeSJaFJicQ/640?wx_fmt=png" alt="img" style="zoom:150%;" />
+    <img src="C:\Users\SHUHAN\Desktop\testgit\pic\3" alt="img" style="zoom:150%;" />
 
 ---
 

@@ -1,6 +1,0 @@
-```shell
-mysql -uroot -p
-```
-
-
-

@@ -49,5 +49,5 @@ git rebase
 #这样我们不会遇到任何合并冲突，而且可以保留一个漂亮的、线性的 Git 历史记录。
 ```
 
-![1](C:\Users\SHUHAN\Desktop\testgit\1.gif)
+![1](C:\Users\SHUHAN\Desktop\testgit\pic\1.gif)
 
