@@ -52,7 +52,7 @@ pacman 将下载的软件包保存在 /var/cache/pacman/pkg/ 并且不会自动�
 > pacman -Sc				#仅会保留软件包的当前有效版本，旧版本的软件包被清理
 ```
 
-![image-20201214195849977](C:\Users\SHUHAN\Desktop\testgit\pic\image-20201214195849977.png)
+![目录功能](C:\Users\SHUHAN\Desktop\testgit\pic\2.png)
 
 
 

@@ -28,5 +28,5 @@ df.reset_index() 按层级恢复（取消）为默认索引
 
 ## matplotlib 
 
-![image-20201230003907732](C:\Users\SHUHAN\Desktop\testgit\pic\image-20201230003907732.png) 
+![image-20201230003907732](C:\Users\SHUHAN\Desktop\testgit\pic\3.png) 
 
