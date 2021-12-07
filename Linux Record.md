@@ -14,25 +14,7 @@
 
 
 
-## 操作系统
-
-- 应用程序的开发都是参考操作系统提供的开发接口，所以应用程序只能在该操作系统下运行
-
-- 各个组件或装置在Linux下都是一个文件，与Win安全不一样
-
-**http://www.study-area.org/network/network.htm**
-
-**http://www.study-area.org/linux/linuxfr.htm**
-
-
-
-
-
 ## arch安装问题记录
-
-iso文件中已经有了网络配置，但是新系统中没有，一定要提前安装dhcpcd和其他的网络工具
-
-
 
 ### pacman 语法
 
@@ -69,12 +51,6 @@ apt-get purge pakege
 ```shell
 systemctl list-unit-files | grep .......
 ```
-
-
-
-
-
-
 
 
 
