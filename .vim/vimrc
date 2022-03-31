@@ -1,0 +1,43 @@
+let mapleader=" "
+
+syntax on
+set number
+set wrap
+set showcmd
+set wildmenu
+set cursorline
+
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+exec "nohlsearch"
+
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+
+noremap J 5j
+noremap K 5k
+
+map s <nop>
+map S :w<CR>
+map Q :q<CR>
+map R :source $MYVIMRC<CR>
+
+
+map sv :set splitright<CR>:vsplit<CR>
+map sh :set splitbelow<CR>:split<CR>
+
+map <LEADER>j <C-w>j
+map <LEADER>k <C-w>k
+map <LEADER>h <C-w>h
+map <LEADER>l <C-w>l
+
+map tt :tabe<CR>
+map tn :+tabnext<CR>
+map tp :-tabnext<CR>
+
+noremap <LEADER><CR> :nohlsearch<CR>
+
+

@@ -4,8 +4,6 @@
 
 ***Matlab 存储逻辑是按列优先存储！***
 
-
-
 ## 字符数组与字符串
 
 ---
@@ -15,8 +13,6 @@
 字符数组：**使用单引号**`seq = 'GCTAGAATCC'`, `seq2 = [seq 'ATTAGAAACC']`
 
 字符串数组：`strlength(A)`
-
-
 
 ## 矩阵
 
@@ -31,8 +27,6 @@
 - `X(:,2) = []`
 
 ### find 函数返回的是索引
-
-
 
 ## 函数
 
@@ -63,8 +57,6 @@ p = fminsearch(@humps, 0.5)
 
 [关于句柄函数](https://ww2.mathworks.cn/help/matlab/learn_matlab/operations-on-nonlinear-functions.html)
 
-
-
 ## [数据分析](https://ww2.mathworks.cn/help/matlab/learn_matlab/data-analysis.html)
 
 ---
@@ -89,7 +81,3 @@ smoothed_c3m = convn(c3m,window,'same');
 ### 频数统计
 
 - `tabulate(x)`
-
-
-
- 

@@ -1,4 +1,4 @@
-- **Basic**
+**Basic**
 
 ```bash
 git init
