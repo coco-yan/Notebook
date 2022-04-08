@@ -36,12 +36,12 @@ $$H(X) = -\sum_{x_{i}\in X}P(X=x_{i})\cdot log(P(X=x_{i}))$$
 
 
 #### Creating Features
-1. Mathematical Transform
+1. **Mathematical Transform**
     - Interaction with a Categorical
-2. Counts
-3. Building-up and breaking-down features
-4. Group Transforms: *group counts, mean, ratio...*
-5. Add `Clustering labels/Cluster-Distance` with K-means
+2. **Counts**
+3. **Building-up and breaking-down features**
+4. **Group Transforms:** *group counts, mean, ratio...*
+5. **Add `Clustering labels/Cluster-Distance` with K-means**
  whether and how to rescale features is rarely automatic -- it will usually depend on some domain knowledge about your data and what you're trying to predict. Comparing different rescaling schemes through cross-validation can also be helpful. 
   
     Features | rescaling or not
@@ -121,9 +121,12 @@ $$H(X) = -\sum_{x_{i}\in X}P(X=x_{i})\cdot log(P(X=x_{i}))$$
         - Noise reduction
         - Decorrelation
 7. **Target Encoding**
-    Use Case:
-    - **High-cardinality features**
-    - **Domain-motivated features**
+    - Use Case:
+        - **High-cardinality features**
+        - **Domain-motivated features**
+    - How(`from category_encoders import MEstimateEncoder`)
+        - Create the encoding and training splits and fit the encoder
+        `encoder = MEstimateEncoder(cols=["Zipcode"], m=5.0)`
 
     <https://www.kaggle.com/code/ryanholbrook/principal-component-analysis>
 
@@ -134,6 +137,8 @@ $$H(X) = -\sum_{x_{i}\in X}P(X=x_{i})\cdot log(P(X=x_{i}))$$
 #### Method
 `X,y = df.pop(colname)`: 删除colname列，返回删除后的X，和colname列
 `df.gt() -> boolen`: built-in greater-than method, `df.gt(0.0).sum(axis=1)`
+`df.factorize()`: 生成`Label-Encoding`
+`df.select_dtypes(["object"]).nunique()`: 计算object中唯一类别的数量
 
 
 
